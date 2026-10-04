@@ -1,0 +1,28 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/nguyendat/CCDNDTimer/.theos/obj/arm64/ccdndsbhook.dylib'
+relocations:
+  - { offset: 0x1E, size: 0x8, addend: 0x0, symName: __ZL15_logosLocalInitv, symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x164 }
+  - { offset: 0x86, size: 0x8, addend: 0x0, symName: _sbDNDTimer, symObjAddr: 0x6DA8, symBinAddr: 0xC148, symSize: 0x0 }
+  - { offset: 0x15A, size: 0x8, addend: 0x0, symName: _sbDNDTimeLeft, symObjAddr: 0x6DB0, symBinAddr: 0xC150, symSize: 0x0 }
+  - { offset: 0x300, size: 0x8, addend: 0x0, symName: _sbDNDFireDate, symObjAddr: 0x6DB8, symBinAddr: 0xC158, symSize: 0x0 }
+  - { offset: 0x315, size: 0x8, addend: 0x0, symName: _moduleDictionary, symObjAddr: 0x6DC0, symBinAddr: 0xC160, symSize: 0x0 }
+  - { offset: 0x34C, size: 0x8, addend: 0x0, symName: _timeRemainingLabel, symObjAddr: 0x6DC8, symBinAddr: 0xC168, symSize: 0x0 }
+  - { offset: 0x1084, size: 0x8, addend: 0x0, symName: _labelTimer, symObjAddr: 0x6DD0, symBinAddr: 0xC170, symSize: 0x0 }
+  - { offset: 0x1099, size: 0x8, addend: 0x0, symName: _CCDNDModuleContainerView, symObjAddr: 0x6DD8, symBinAddr: 0xC178, symSize: 0x0 }
+  - { offset: 0x10BC, size: 0x8, addend: 0x0, symName: _dndFireDate, symObjAddr: 0x6DE0, symBinAddr: 0xC180, symSize: 0x0 }
+  - { offset: 0x10D1, size: 0x8, addend: 0x0, symName: '__ZL65_logos_orig$_ungrouped$SpringBoard$applicationDidFinishLaunching$', symObjAddr: 0x6DE8, symBinAddr: 0xC188, symSize: 0x0 }
+  - { offset: 0x1126, size: 0x8, addend: 0x0, symName: '__ZL73_logos_orig$_ungrouped$CCUIModuleCollectionViewController$viewWillAppear$', symObjAddr: 0x6DF0, symBinAddr: 0xC190, symSize: 0x0 }
+  - { offset: 0x115C, size: 0x8, addend: 0x0, symName: '__ZL127_logos_method$_ungrouped$CCUIModuleCollectionViewController$contentModuleContainerViewController$didBeginInteractionWithModule$P34CCUIModuleCollectionViewControllerP13objc_selectorP11objc_objectS4_', symObjAddr: 0x4F8, symBinAddr: 0x44F8, symSize: 0x104 }
+  - { offset: 0x1181, size: 0x8, addend: 0x0, symName: '__ZZL127_logos_method$_ungrouped$CCUIModuleCollectionViewController$contentModuleContainerViewController$didBeginInteractionWithModule$P34CCUIModuleCollectionViewControllerP13objc_selectorP11objc_objectS4_E9onceToken', symObjAddr: 0x6E00, symBinAddr: 0xC1A0, symSize: 0x0 }
+  - { offset: 0x124F, size: 0x8, addend: 0x0, symName: '__ZL125_logos_orig$_ungrouped$CCUIModuleCollectionViewController$contentModuleContainerViewController$didBeginInteractionWithModule$', symObjAddr: 0x6DF8, symBinAddr: 0xC198, symSize: 0x0 }
+  - { offset: 0x128D, size: 0x8, addend: 0x0, symName: __ZL15_logosLocalInitv, symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x164 }
+  - { offset: 0x1475, size: 0x8, addend: 0x0, symName: '__ZL67_logos_method$_ungrouped$SpringBoard$applicationDidFinishLaunching$P11SpringBoardP13objc_selectorP11objc_object', symObjAddr: 0x164, symBinAddr: 0x4164, symSize: 0x1B8 }
+  - { offset: 0x1520, size: 0x8, addend: 0x0, symName: '__ZL51_logos_method$_ungrouped$SpringBoard$updateDNDTimerP11SpringBoardP13objc_selector', symObjAddr: 0x31C, symBinAddr: 0x431C, symSize: 0xE4 }
+  - { offset: 0x156C, size: 0x8, addend: 0x0, symName: __ZL12isDNDEnabledv, symObjAddr: 0xB48, symBinAddr: 0x4B48, symSize: 0x108 }
+  - { offset: 0x16C1, size: 0x8, addend: 0x0, symName: '__ZL75_logos_method$_ungrouped$CCUIModuleCollectionViewController$viewWillAppear$P34CCUIModuleCollectionViewControllerP13objc_selectorb', symObjAddr: 0x400, symBinAddr: 0x4400, symSize: 0xF8 }
+  - { offset: 0x187D, size: 0x8, addend: 0x0, symName: '__ZL71_logos_method$_ungrouped$CCUIModuleCollectionViewController$addDNDLabelP34CCUIModuleCollectionViewControllerP13objc_selector', symObjAddr: 0x5FC, symBinAddr: 0x45FC, symSize: 0x2F0 }
+  - { offset: 0x18DC, size: 0x8, addend: 0x0, symName: '__ZL76_logos_method$_ungrouped$CCUIModuleCollectionViewController$updateLabelTimerP34CCUIModuleCollectionViewControllerP13objc_selector', symObjAddr: 0x8EC, symBinAddr: 0x48EC, symSize: 0x194 }
+  - { offset: 0x191D, size: 0x8, addend: 0x0, symName: '__ZL72_logos_method$_ungrouped$CCUIModuleCollectionViewController$timeFromSec$P34CCUIModuleCollectionViewControllerP13objc_selectori', symObjAddr: 0xA80, symBinAddr: 0x4A80, symSize: 0xC8 }
+  - { offset: 0x19E7, size: 0x8, addend: 0x0, symName: '____ZL127_logos_method$_ungrouped$CCUIModuleCollectionViewController$contentModuleContainerViewController$didBeginInteractionWithModule$P34CCUIModuleCollectionViewControllerP13objc_selectorP11objc_objectS4__block_invoke', symObjAddr: 0xC50, symBinAddr: 0x4C50, symSize: 0x68 }
+...

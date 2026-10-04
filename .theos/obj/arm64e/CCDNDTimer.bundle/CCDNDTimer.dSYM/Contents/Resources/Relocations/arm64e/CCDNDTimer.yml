@@ -1,0 +1,20 @@
+---
+triple:          'arm64e-apple-darwin'
+binary-path:     '/Users/nguyendat/CCDNDTimer/.theos/obj/arm64e/CCDNDTimer.bundle/CCDNDTimer'
+relocations:
+  - { offset: 0x1E, size: 0x8, addend: 0x0, symName: '-[CCDNDTimer glyphPackageDescription]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x98 }
+  - { offset: 0x37, size: 0x8, addend: 0x0, symName: __ZL16assertionService, symObjAddr: 0x7D70, symBinAddr: 0xC250, symSize: 0x0 }
+  - { offset: 0x8F, size: 0x8, addend: 0x0, symName: _gotDeselected, symObjAddr: 0x7D90, symBinAddr: 0xC270, symSize: 0x0 }
+  - { offset: 0xB6, size: 0x8, addend: 0x0, symName: _DNDFireDate, symObjAddr: 0x7D98, symBinAddr: 0xC278, symSize: 0x0 }
+  - { offset: 0xF3, size: 0x8, addend: 0x0, symName: '-[CCDNDTimer isSelected]', symObjAddr: 0x15C, symBinAddr: 0x415C, symSize: 0x284 }
+  - { offset: 0x11C, size: 0x8, addend: 0x0, symName: '__ZZ24-[CCDNDTimer isSelected]E10onceToken2', symObjAddr: 0x7D78, symBinAddr: 0xC258, symSize: 0x0 }
+  - { offset: 0x1BF6, size: 0x8, addend: 0x0, symName: '-[CCDNDTimer glyphPackageDescription]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x98 }
+  - { offset: 0x1C2A, size: 0x8, addend: 0x0, symName: '-[CCDNDTimer iconGlyph]', symObjAddr: 0x98, symBinAddr: 0x4098, symSize: 0x9C }
+  - { offset: 0x1C5E, size: 0x8, addend: 0x0, symName: '-[CCDNDTimer selectedColor]', symObjAddr: 0x134, symBinAddr: 0x4134, symSize: 0x28 }
+  - { offset: 0x1E17, size: 0x8, addend: 0x0, symName: '___24-[CCDNDTimer isSelected]_block_invoke', symObjAddr: 0x3E0, symBinAddr: 0x43E0, symSize: 0x7C }
+  - { offset: 0x1E3C, size: 0x8, addend: 0x0, symName: ___copy_helper_block_ea8_32s, symObjAddr: 0x45C, symBinAddr: 0x445C, symSize: 0x8 }
+  - { offset: 0x1E60, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_ea8_32s, symObjAddr: 0x464, symBinAddr: 0x4464, symSize: 0x8 }
+  - { offset: 0x1ED6, size: 0x8, addend: 0x0, symName: '-[CCDNDTimer setSelected:]', symObjAddr: 0x46C, symBinAddr: 0x446C, symSize: 0x228 }
+  - { offset: 0x1FCB, size: 0x8, addend: 0x0, symName: '-[CCDNDTimer cancelToggle]', symObjAddr: 0x694, symBinAddr: 0x4694, symSize: 0x8 }
+  - { offset: 0x1FF9, size: 0x8, addend: 0x0, symName: '-[CCDNDTimer updateDNDTimerSettingsWithTimeLeft:]', symObjAddr: 0x69C, symBinAddr: 0x469C, symSize: 0x168 }
+...

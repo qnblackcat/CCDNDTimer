@@ -3,9 +3,9 @@
 #import <objc/objc.h>
 #pragma clang diagnostic ignored "-Wunused-variable"
 #pragma clang diagnostic ignored "-Wunused-function"
-#import <rootless.h>
+#import <roothide.h>
 
-#define DND_TIMER_PLIST ROOT_PATH_NS(@"/var/mobile/Library/Preferences/com.0xkuj.ccdndtimer.plist")
+#define DND_TIMER_PLIST jbroot(@"/var/mobile/Library/Preferences/com.0xkuj.ccdndtimer.plist")
 
 @class DNDModeAssertionLifetime;
 @interface DNDModeAssertionDetails : NSObject
